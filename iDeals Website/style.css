@@ -6,10 +6,10 @@
 
 .search-box{
     position : absolute;
-    top : 50%;
+    top : 8%;
     left : 50%;
     transform: translate(-50% , -50%);
-    background: #26f326;
+    background: #2f3640;
     height : 40px;
     border-radius : 40px;
     padding : 10px; 
@@ -21,7 +21,7 @@
 }
 
 .search-button{
-    color : #e84118;
+    color : #19d7f8;
     float : right;
     width: 40px;
     height: 40px;
@@ -56,6 +56,52 @@
     background: #42455a;
 }
 
+.logo img{
+    width : 50px;
+    height : 45px;
+    margin-top : -15px;
+}
+
+.home-active{
+    color : #19dafa !important;
+}
+
+.signin-button{
+    color : #fff;
+    top : 33px;
+    right: 40px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 20px;
+    background-image: linear-gradient(#42455a , #42455a) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box;  
+}
+
+.signin-button span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.post-button{
+    color : #fff;
+    top : 33px;
+    right: 170px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 20px;
+    background-image: linear-gradient(#42455a , #42455a) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box;  
+}
+
+.post-button span{
+    display: block;
+    padding: 8px 22px;
+}
+
 .menu ul {
     display : inline-flex;
     margin : 50px;
@@ -63,7 +109,89 @@
 
 .menu ul li{
     list-style: none;
-    margin : 0 20px;
+    margin : 0 10px;
     color : #b2b1b1;
     cursor : pointer;
+}
+
+.submenu ul {
+    display : inline-flex;
+    margin : -20px 50px;
+    
+}
+
+.submenu ul li{
+    list-style: none;
+    margin : 0 10px;
+    color : #b2b1b1;
+    cursor : pointer;
+}
+
+.filter-button{
+    color : #fff;
+    top : 100px;
+    right: 170px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 20px;
+    background-image: linear-gradient(#42455a , #42455a) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box;  
+}
+
+.filter-button span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.box{
+    line-height: 200px;
+    margin : -30px 50px;
+    padding : 0;
+    float: left;
+    color : #fff;
+    top : 210px;
+    right: 380px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 10px;
+    background-image: linear-gradient(#2f3640 , #2f3640) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box; 
+}
+
+.box2{
+    line-height: 200px;
+    margin : -30px 50px;
+    padding : 0;
+    float: left;
+    color : #fff;
+    top : 470px;
+    right: 380px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 10px;
+    background-image: linear-gradient(#2f3640 , #2f3640) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box; 
+}
+
+.box3{
+    line-height: 460px;
+    margin : -20px -220px;
+    padding : 0;
+    float: left;
+    color : #fff;
+    top : 200px;
+    right: 280px;
+    position: absolute;
+    text-decoration: none;
+    border : 2px solid transparent;
+    border-radius : 10px;
+    background-image: linear-gradient(#2f3640 , #2f3640) , radial-gradient(circle at top left,#fd00da , #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box , border-box; 
 }
